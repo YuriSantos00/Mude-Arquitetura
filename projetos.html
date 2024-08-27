@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="css/stylesprojetos.css" />
     <link rel="stylesheet" href="css/stylesmenu.css">
     <link rel="stylesheet" href="css/slider.css">
-    <script src="script.js"></script>
-    <script src="scriptmenu.js"></script>
+    <link rel="stylesheet" href="css/slide.css">
+    
     
     <!-- Icons Font -->
     <link
@@ -62,24 +62,31 @@
           </div>
       </div>
    </header>
-    
-   <section id="event-subscription">
-    <div id="disclaimer">
-      <h2><img src="img/logo.png" alt="logo"></h2>
-      <p class="about-event">
-       Portifólio de Projetos
-      </p>
-      <p></p>
-      <p class="event-date"></p>
-      <br>
-      <br>
-      <p> 
-        <a href="index.html" > <i class="bi bi-arrow-left-square-fill"  style="color: var(--primary);";></i></a> 
-        Página Principal
-        
-      </p>
+  
+   <div class="slider">
+      <div class="slides">
+        <div class="slide">
+          <img src="img/hrz-3.jpg" alt="Foto 1">
+          <div class="caption">MUDE ARQUITETURA</div>
+        </div>
+        <div class="slide">
+          <img src="img/hrz-2.jpg" alt="Foto 2">
+          <div class="caption">MUDE ARQUITETURA</div>
+        </div>
+        <div class="slide">
+          <img src="img/hrz-1.jpg" alt="Foto 3">
+          <div class="caption">MUDE ARQUITETURA</div>
+        </div>
+        <div class="slide">
+          <img src="img/hrz-4.jpg" alt="Foto 4">
+          <div class="caption">MUDE ARQUITETURA</div>
+        </div>
+      </div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
     </div>
-    
+  
+
    </section>
     
     <section id="key-benefits">
@@ -145,57 +152,7 @@
       </div>
     </section>
    
-    <section id="location">
-      </div>
-      
-      <div id="about-location">
-        <h3>Detalhamento dos Projetos</h3>       
-      </div>
-    </section>
-    
-    <section class="containerproje">
-      <div class="slide-container active">
-          <div class="slide">
-           <div class="contentproje">
-             <h3>COZINHA 2</h3>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde similique ipsam quibusdam inventore earum, quo assumenda, quam molestiae 
-                 laborum praesentium velit accusantium iure excepturi. Iste dolores id odit veritatis ex?</p>
-             <a href="https://www.instagram.com/_ingridbeckers?igsh=NndpZGY4YXc0aHcx" class="bntproj">Saiba mais</a>
-           </div>
-          </div>
-      </div>
-
-      <div class="slide-container">
-          <div class="slide">
-           <div class="contentproje">
-             <h3>COZINHA 1</h3>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid assumenda eaque, inventore 
-                 pariatur molestias hic, aspernatur nihil ipsam eius magni incidunt? Incidunt eveniet non magnam 
-                 reprehenderit beatae doloribus soluta.</p>
-             <a href="https://www.instagram.com/_ingridbeckers?igsh=NndpZGY4YXc0aHcx" class="bntproj">Saiba mais</a>
-           </div>
-          </div>
-      </div>
-      
-      <div class="slide-container">
-          <div class="slide">
-           <div class="contentproje">
-             <h3>QUARTO 1</h3>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos, qui obcaecati nulla 
-              aliquid non iure autem, esse aliquam itaque rerum nostrum 
-              repudiandae! At eligendi quas provident omnis voluptatem. Dignissimos..</p>
-             <a href="https://www.instagram.com/_ingridbeckers?igsh=NndpZGY4YXc0aHcx" class="bntproj">Saiba mais</a>
-           </div>
-          </div>
-      </div>
-
-      
-      <div id="prev" onclick="prev()"> < </div>
-      <div id="next" onclick="next()"> > </div>
-    </section>
-
     <section id="cta">
-      <h3>SOLICITE UM ORÇAMENTO:</h3>
       <a href="https://www.instagram.com/_ingridbeckers?igsh=NndpZGY4YXc0aHcx"><button class="btn">Solicitar Orçamento</button></a>
     </section>
     
@@ -217,6 +174,10 @@
         </ul>
      </nav>
     </footer>
+
+    <script src="script.js"></script>
+    <script src="scriptmenu.js"></script>
+    <script src="scriptslid.js"></script>
     
   </body>
 </html>

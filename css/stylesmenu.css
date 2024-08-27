@@ -17,12 +17,13 @@
 header {
     background-color: #2C3D4F;
     box-shadow: 0px 3px 10px #464646;
+    
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 0.5rem 15rem;
 }
 
 .logo {
@@ -37,6 +38,7 @@ header {
 .nav-list {
     display: flex;
     align-items: center;
+    margin-right: 100px;
 }
 
 .nav-list ul {
@@ -57,6 +59,7 @@ header {
 }
 
 .login-button button {
+    margin-top: 10px;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
