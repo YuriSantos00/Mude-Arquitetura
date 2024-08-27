@@ -238,6 +238,7 @@
 .detail-description {
   width: 100%;
   padding-left: 2em;
+  text-align: center;
 }
 
 #detail-3 .detail-description {
