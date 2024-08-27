@@ -384,6 +384,12 @@
     max-width: 100%;
   }
 
+  #address-details {
+    text-align: center;
+  }
+
+
+
   #address i {
     margin: 0.3em 0;
   }
@@ -433,4 +439,9 @@
   #cta .btn {
     width: 80%;
   }
+
+  #cta h3 {
+   font-size: 1.5em;
+  }
+
 }
