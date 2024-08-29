@@ -175,15 +175,35 @@
   max-width: 30%;
 }
 
+/* Button insta e link */
 #address {
   display: flex;
 }
 
-#address i {
-  color: var(--primary);
+#address .insta {
+  color: #E1306C;
   font-size: 4em;
   margin-right: 0.5em;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+#address .link {
+  color: #0077b5;
+  font-size: 4em;
+  margin-right: 0.5em;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#address .insta:hover {
+  color: var(--primary);
+  transform: scale(1.5); 
+}
+
+#address .link:hover {
+  color: var(--primary);
+  transform: scale(1.5); 
+}
+
 
 #address-details {
   text-align: start;

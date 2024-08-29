@@ -56,8 +56,14 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: #fff;
+    color: #f8f6f6;
     font-weight: 400;
+    transition: color 0.3s ease, font-size 0.3s ease; 
+}
+
+.nav-link:hover {
+    color: #BD7E4E; 
+    font-size: 1.25rem; 
 }
 
 .login-button button {
@@ -66,6 +72,7 @@ header {
     padding: 10px 15px;
     border-radius: 5px;
     background-color: #f7f9fa63;
+    transition: background-color 0.3s ease; 
 }
 
 .login-button button a {
@@ -73,6 +80,16 @@ header {
     color: #f1f1f1;
     font-weight: 500;
     font-size: 1.1rem;
+    transition: color 0.3s ease, font-size 0.3s ease; 
+}
+
+.login-button button:hover a {
+    color: #BD7E4E; 
+    font-size: 1.2rem; 
+}
+
+.login-button button:hover {
+    background-color: #e5e7e9; 
 }
 
 .mobile-menu-icon {
