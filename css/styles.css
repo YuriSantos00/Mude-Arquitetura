@@ -13,7 +13,7 @@
 }
 
 
-/* Capa form */
+/* Capa Principal section */
 #event-subscription {
   background: linear-gradient(rgba(13, 13, 14, 0.863)  , #2c3d4fa2),
     url("../img/hrz-3.jpg");
@@ -106,7 +106,7 @@
 }
 
 
-/* Benefits section */
+/* Serviços section */
 #key-benefits h2 {
   background-color: #2C3D4F;
   text-align: center;
@@ -156,11 +156,7 @@
 }
 
 
-
-
-
-
-/* Event location */
+/* Info Arquiteta section */
 #location {
   height: 400px;
   background: linear-gradient(rgba(13, 13, 14, 0.863)  , #2c3d4fa2),
@@ -206,7 +202,7 @@
   line-height: 1.5em;
 }
 
-/* Event details container */
+/* Sobre empresa section */
 #details {
   width: 80%;
   margin: 0 auto;
@@ -260,60 +256,8 @@
   font-weight: bold;
 }
 
-/* Call to Action Portifolio */
-#port {
-  height: 100px;
-  background: #fff;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: var(--text-);
-}
 
-#port h3 {
-  margin-bottom: 1.2em;
-  font-size: 2em;
-  font-weight: 500;
-}
-
-#port  .btn {
-  width: 40%;
-  margin: 0 auto;
-  font-weight: 600;
-  font-size: 1.2em;
-}
-
-/* Call to Action Section */
-#cta {
-  height: 500px;
-  background: linear-gradient(rgba(13, 13, 14, 0.863)  , #2c3d4fa2),
-    url("../img/hrz-6.jpg");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: var(--text-color);
-}
-
-#cta h3 {
-  margin-bottom: 1.2em;
-  font-size: 2em;
-  font-weight: 500;
-}
-
-#cta .btn {
-  width: 30%;
-  margin: 0 auto;
-  font-weight: 600;
-  font-size: 1.2em;
-}
-
-/* Fotos Portifolio */
+/* Fotos Portifolio section */
 
 .portfolio-container {
   max-width: 1200px;
@@ -367,6 +311,33 @@
   opacity: 1;
 }
 
+/* Botão portifolio section*/
+#port {
+  height: 100px;
+  background: #fff;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-);
+}
+
+#port h3 {
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#port  .btn {
+  width: 40%;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+
 
 /* Footer */
 #footer {
@@ -391,6 +362,8 @@
 #footer span {
   font-weight: bold;
 }
+
+/* Redes sociais nav */
 
 .btn_social { 
   width:100%; 
@@ -444,7 +417,7 @@
 
 /* Mobile */
 @media (max-width: 450px) {
-  /* Event form */
+  /* Capa Principal section */
   #event-subscription {
     flex-direction: column;
     height: auto;
@@ -465,7 +438,7 @@
     margin-bottom: 2em;
   }
 
-  /* Benefits section */
+  /* Serviços section */
   .benefits {
     flex-direction: column;
     align-items: center;
@@ -478,7 +451,7 @@
     margin-bottom: 2em;
   }
 
-  /* Event location */
+  /* Info Arquiteta section */
   #location {
     flex-direction: column;
     height: auto;
@@ -495,8 +468,6 @@
   #address-details {
     text-align: center;
   }
-
-
 
   #address i {
     margin: 0.3em 0;
@@ -515,7 +486,7 @@
     display: none;
   }
 
-  /* Event details container */
+  /* Sobre empresa section */
   .detail {
     flex-direction: column;
     margin-bottom: 0.5em;
@@ -549,19 +520,19 @@
     margin-bottom: 15px;
 }
 .portfolio-grid {
-    grid-template-columns: 1fr; /* Cada item ocupa toda a largura disponível */
+    grid-template-columns: 1fr; 
     gap: 10px;
 }
 .portfolio-item img {
     height: auto;
 }
 .portfolio-item .overlay {
-    font-size: 16px; /* Reduz o tamanho da fonte nas sobreposições */
+    font-size: 16px; 
     padding: 10px;
 }
 
 
-  /* Call to Action Section */
+  /* Botão portifolio section*/
   #cta .btn {
     width: 80%;
   }

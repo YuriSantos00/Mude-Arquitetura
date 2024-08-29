@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+/* Menu cabeçalho */
 :root {
     --primary: #BD7E4E;
     --secondary: rgb(20, 21, 22);
@@ -80,6 +82,8 @@ header {
 .mobile-menu {
     display: none;
 }
+
+/* Menu cabeçalho mobile */
 
 @media screen and (max-width: 730px) {
     .nav-bar {

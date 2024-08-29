@@ -1,4 +1,4 @@
-
+/* Slide projetos */
 .slider {
     position: relative;
     width: 100vw;
@@ -63,6 +63,7 @@
     font-size: 24px;
 }
 
+/* Slide projetos mobile*/
 @media (max-width: 600px) {
     .caption {
         font-size: 18px;
