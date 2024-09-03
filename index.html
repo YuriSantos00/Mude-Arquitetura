@@ -17,6 +17,7 @@
     <!--CSS -->
       <link rel="stylesheet" href="css/stylesmenu.css">
       <link rel="stylesheet" href="css/styles.css" />
+      <link rel="stylesheet" href="css/slide.css" />
 
     <!-- Icons Font -->
     <link
@@ -26,16 +27,17 @@
   </head>
   
   <body>
+    <!-- Header -->
     <header>
       <nav class="nav-bar">
           <div class="logo">
-              <h1><img src="img/logomenu.png" alt=""></h1>
+              <h1><img class="imglogo" src="img/logomenu.png" alt=""></h1>
           </div>
           <div class="nav-list">
               <ul>
                   <li class="nav-item"><a href="#key-benefits" class="nav-link">SERVIÇOS</a></li>
                   <li class="nav-item"><a href="#location" class="nav-link">ARQUITETA</a></li>
-                  <li class="nav-item"><a href="projetos.html" class="nav-link"> PORTIFÓLIO</a></li>
+                  <li class="nav-item"><a href="#slider" class="nav-link"> PORTIFÓLIO</a></li>
               </ul>
           </div>
           <div class="login-button">
@@ -48,9 +50,9 @@
       </nav>
       <div class="mobile-menu">
           <ul>
-            <li class="nav-item"><a href="#key-benefits" class="nav-link">Serviços</a></li>
-            <li class="nav-item"><a href="#location" class="nav-link">Arquiteta</a></li>
-            <li class="nav-item"><a href="projetos.html" class="nav-link"> Portifólio</a></li>
+            <li class="nav-item"><a href="#key-benefits" class="nav-link">SERVIÇOS</a></li>
+            <li class="nav-item"><a href="#location" class="nav-link">ARQUITETA</a></li>
+            <li class="nav-item"><a href="#slider" class="nav-link"> PORTIFÓLIO</a></li>
           </ul>
 
           <div class="login-button">
@@ -59,22 +61,30 @@
       </div>
    </header>
   
-
-    <section id="event-subscription">
-      
-      <div id="disclaimer">
-        <img src="img/logo.png" alt="">
-        <br><br><br>
-        <p class="about-event">
-          
-        </p>
-        <br><br><br>
-        <p></p>
-        <p class="event-date"></p>
-      </div>
-
-    </section>
-    
+    <!-- Slide.css -->
+    <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="img/projeto01.jpg" alt="Foto 1">
+          </div>
+          <div class="slide">
+            <img src="img/projeto02.jpg" alt="Foto 2">
+          </div>
+          <div class="slide">
+            <img src="img/projeto03.jpg" alt="Foto 3"> 
+          </div>
+          <div class="slide">
+            <img src="img/projeto04.jpg" alt="Foto 4">
+          </div>
+        </div>
+        <div class="overlay-image">
+          <img src="img/logo2.png" alt="Imagem sobreposta">
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+   
+    <!-- Serviços -->
     <section id="key-benefits">
      
       <h2>SERVIÇOS</h2>
@@ -107,13 +117,11 @@
       </div>
     </section>
 
-   
+    <!-- Sobre Arquiteta -->
     <section id="location">
       <div id="address">
         <br>
-        <a class="insta" href="https://www.instagram.com/_ingridbeckers?igsh=NndpZGY4YXc0aHcx"> 
-          <i class="bi bi-instagram"></i>
-        </a>
+        <a class="insta" href="https://www.instagram.com/_ingridbeckers?igsh=NndpZGY4YXc0aHcx"><i class="bi bi-instagram"></i></a>
         <a class="link" href="https://www.linkedin.com/in/ingrid-becker-8b25391b0/"> <i class="bi bi-linkedin"></i> </a> 
         <br>
        
@@ -133,38 +141,36 @@
       </div>
     </section>
     
-    <section id="details">
-      <div class="detail" id="detail-1">
-        <div class="detail-description">
-          <h3>MUDE ARQ</h3>
-        </div>
-      </div>
-      
-      <div class="detail" id="detail-2">
-        <div class="detail-description">
-          <h3>PROPÓSITO</h3>
-          <ul>
-            <li>Posicionamento</li>
-            <li>Aproveitamento de espaço</li>
-            <li>Combinação de cores</li>
-            <li>Organização</li>
-            
-          </ul>
-        </div>
-        <img src="img/hrz-4.jpg" alt="" />
-      </div>
-      <div class="detail" id="detail-3">
-        <img src="img/hrz-5.png" alt="" />
-        <div class="detail-description">
-          <h3>SOBRE</h3>
-           <p>O escritório de arquitetura Mude nasceu há mais de 30 anos, no ano de 1988, a partir da paixão de sua fundadora, a arquiteta Ingrid Becker. O nome surgiu da junção de dois amores: arquitetura, e arte de mudar vidas.</p>
-           <br><br><br>
-           <p>O escritório Mude arquitetura acumula anos de experiência e comprometimento na bagagem para entregar cada vez mais excelência em seus serviços. A equipe segue sempre em busca de aprimoramento para trazer técnicas modernas e eficientes aos projetos.</p>
+    <!-- Sobre a empresa -->
+    <section class="empresa-apresentacao">
+      <div class="card">
+          <img src="img/projeto01.jpg" alt="Sobre a empresa">
+          <div class="card-content">
+            <h2>Sobre</h2>
+            <p>O escritório Mude arquitetura acumula anos de experiência e comprometimento na bagagem para entregar cada vez mais excelência em seus serviços.</p>
           </div>
       </div>
-
+      <div class="card">
+          <img src="img/projeto02.jpg" alt="Metodologia">
+          <div class="card-content">
+              <h2>Metodologia</h2>
+              <p>Explicação da metodologia aplicada pela empresa para alcançar resultados.</p>
+          </div>
+      </div>
+      <div class="card">
+          <img src="img/projeto03.jpg" alt="Propósito">
+          <div class="card-content">
+              <h2>Propósito</h2>
+              <ol>Posicionamento</ol>
+              <ol>Aproveitamento de espaço</ol>
+              <ol>Combinação de cores</ol>
+              <ol>Organização</ol>
+          </div>
+      </div>
     </section>
+    
 
+    <!-- Portifolio -->
     <section>
       <div class="portfolio-container">
         <h1 class="portfolio-title">PORTIFÓLIO</h1>
@@ -196,32 +202,68 @@
         </div>
     </section>
 
-    <section id="port">
-      <a href="projetos.html"><button class="btn">Portifólio Completo</button></a>
+    <section class="projetos">
+      <h1>PROJETOS</h1>
+
+      <!-- Projeto 1 -->
+      <div class="projeto">
+          <h2>CASA VINHEDOS</h2>
+          <div class="projeto-conteudo">
+              <div class="projeto-video">
+                  <video controls>
+                      <source src="img/video01.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+              </div>
+              <div class="projeto-texto">
+                  <p>Esse projeto de residência teve como conceito a busca da conexão com o espaço aberto criando um ambiente intermediário entre o interior e o exterior. Realizado em terreno plano e diminuto com grandes vãos e focado especialmente para a área gourmet, onde há a integração de interior e exterior para que se crie a sala de jantar, a cozinha e a sala de estar. Há também uma lareira na parte externa, com referências de arquitetura contemporânea e projetada especialmente para um terreno pequeno, que se enquadrasse com os entornos do ambiente..</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="projeto">
+          <h2>CASA VINHEDOS</h2>
+          <div class="projeto-conteudo">
+              <div class="projeto-video">
+                  <video controls>
+                      <source src="img/video01.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+              </div>
+              <div class="projeto-texto">
+                  <p>Esse projeto de residência teve como conceito a busca da conexão com o espaço aberto criando um ambiente intermediário entre o interior e o exterior. Realizado em terreno plano e diminuto com grandes vãos e focado especialmente para a área gourmet, onde há a integração de interior e exterior para que se crie a sala de jantar, a cozinha e a sala de estar. Há também uma lareira na parte externa, com referências de arquitetura contemporânea e projetada especialmente para um terreno pequeno, que se enquadrasse com os entornos do ambiente.</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Adicione mais projetos conforme necessário -->
+
     </section>
-   
-    <footer id="footer">
-      <br><br><br>
-      <h3> <img src="img/logo2.png" alt=""></h3>
-      <p>Projetos e decoração de interiores</p>
-      <br><br>
-      
-      <nav class="btn_social">
-                    
-        <ul>
-            
-            <li><a href="https://www.instagram.com/_ingridbeckers?igsh=NndpZGY4YXc0aHcx" target="_blank" title="instagram"><i class="bi bi-instagram"></i></a></li>
-            <li><a href="https://wa.me/5195307799" target="_blank" title="whatsapp"><i class="bi bi-whatsapp"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/ingrid-becker-8b25391b0/" target="_blank" title="linkdin"><i class="bi bi-linkedin"></i></a></li>
-            <li><a href="mailto:ingridrbecker@gmail.com" target="_blank" title="email"><i class="bi bi-envelope-plus"></i></a></li>
-                         
-        </ul>
-     </nav>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-logo">
+              <img src="img/logomenu.png" alt="Logo da Empresa">
+          </div>
+          <div class="footer-social">
+              <a href="https://www.linkedin.com/in/ingrid-becker-8b25391b0/" class="social-icon"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.instagram.com/happyarquitetura/" class="social-icon"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-pinterest"></i></a>
+          </div>
+          <div class="footer-contact">
+              <a style="text-decoration: none" href="mailto:ingridrbecker@gmail.com"> <p style="text-decoration: none"> <i class="bi bi-envelope-fill"></i> ingridrbecker@gmail.com</p> </a>
+              <p> <i class="bi bi-telephone"></i> Telefone: (51) 99530-7799</p>
+          </div>
+      </div>
     </footer>
 
-     <!-- Scripts-->
+    <!-- Scripts-->
      <script src="script.js"></script>
      <script src="scriptmenu.js"></script>
+     <script src="scriptslid.js"></script>
 
   </body>
 </html>
